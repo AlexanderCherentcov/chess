@@ -130,8 +130,8 @@ const swiperParticipants = new Swiper('.participants-swiper', {
   slidesPerView: 3, // Количество видимых слайдов на десктопе
   spaceBetween: 20, // Отступы между слайдами
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.participants__next',
+    prevEl: '.participants__prev',
   },
   pagination: {
     el: '.participants__pagination',

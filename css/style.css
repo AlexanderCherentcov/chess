@@ -640,7 +640,15 @@ input::-webkit-search-results-decoration {
 .participants__prev:hover,
 .participants__next:hover,
 .stages__button-next:hover,
-.stages__button-prev:hover {
+.stages__button-prev:hover,
+.participants__prev:hover::after,
+.participants__next:hover::after,
+.stages__button-next:hover::after,
+.stages__button-prev:hover::after,
+.participants__prev:hover::after,
+.participants__next:hover::after,
+.stages__button-next:hover::after,
+.stages__button-prev:hover::after  {
   background-color: var(--color-saffron-mango);
 }
 
@@ -652,6 +660,8 @@ input::-webkit-search-results-decoration {
   background-color: var(--color-saffron-mango);
 }
 
+
+
 .participants__prev:active,
 .participants__next:active,
 .stages__button-next:active,
@@ -661,8 +671,12 @@ input::-webkit-search-results-decoration {
 
 .participants__prev:disabled,
 .participants__next:disabled,
-.stages__button-next::after,
-.stages__button-prev::after {
+.stages__button-next:disabled,
+.stages__button-prev:disabled,
+.participants__prev:disabled::after,
+.participants__next:disabled::after,
+.stages__button-next:disabled::after,
+.stages__button-prev:disabled::after {
   background-color: #d6d6d6;
 }
 
@@ -673,6 +687,8 @@ input::-webkit-search-results-decoration {
   position: absolute;
   font-size: 20px;
   color: #fff;
+  background-color: #1f1f1f;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .participants__pagination {
