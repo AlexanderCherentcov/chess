@@ -475,7 +475,7 @@ input::-webkit-search-results-decoration {
 .stages-item {
   position: relative;
   grid-column: span 4;
-  background-image: url(/img/stages/background-card.png);
+  background-image: url(../img/stages/background-card.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -499,7 +499,7 @@ input::-webkit-search-results-decoration {
   position: absolute;
   top: -67px;
   left: 60%;
-  background-image: url(/img/stages/plane.png);
+  background-image: url(../img/stages/plane.png);
   background-size: cover;
   width: 376px;
   height: 200px;
